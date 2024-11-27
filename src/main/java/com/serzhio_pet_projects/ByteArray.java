@@ -28,8 +28,6 @@ public class ByteArray {
         this.length = data.length;
     }
 
-
-
     public static byte[] createByteArrayFromString(String inputData) {
         return inputData.getBytes(UTF_8);
     }
